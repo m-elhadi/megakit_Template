@@ -1,0 +1,88 @@
+/* media */
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* header */
+    #header .carousel {
+     
+    }
+    #header .carousel .carousel-inner img{
+
+    }
+    #header .carousel-caption h1 {
+        /* padding: 0 15%; */
+        margin-bottom: 20px;
+        font-size: 1rem;
+      }
+      #header .carousel-caption a {
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        text-decoration: none;
+      }
+      #header .carousel-caption a i {
+        font-size: 15px;
+        text-align: center;
+      }
+      /* Experiences */
+    #Experiences .experience-top {
+      text-align: center;
+      width: 100%;
+    }
+    #Experiences .experience-top h2{
+      font-size: 2rem;
+    }
+    /* about */
+    #about .about-content p {
+      font-size: 18px;
+      font-family: "Lato", sans-serif;
+      line-height: 29px;
+    }
+    /* Testmonial */
+    #testmonial .swiper-slide h3 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+          /* header */
+    #header .carousel-caption h1 {
+        /* padding: 0 15%; */
+        margin-bottom: 30px;
+        font-size: 1rem;
+      }
+      #header .carousel-caption a {
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 17px;
+        text-decoration: none;
+      }
+      
+    #header-contact .header-contact form {
+      width: 100%;
+    }
+    #header-contact .header-contact form input.email,
+    #header-contact .header-contact form input.phone {
+      width: 100%;
+    }
+
+  
+    #Experiences .experience-top {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    #Experiences .experience-top {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {}
+  
+  @media (min-width: 1200px) {}
